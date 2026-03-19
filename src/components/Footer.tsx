@@ -17,11 +17,11 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-black text-2xl tracking-tighter leading-none">TI UNRI</span>
-                <span className="text-[10px] font-bold uppercase tracking-[0.2em] mt-1 text-white/60">Teknik Informatika</span>
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] mt-1 text-white/60">Sistem Informasi</span>
               </div>
             </div>
             <p className="text-white/60 leading-relaxed font-medium">
-              Menjadi pusat unggulan pendidikan dan riset Teknik Informatika di tingkat regional dan nasional yang berorientasi pada inovasi teknologi global.
+              Menjadi pusat unggulan pendidikan dan riset Sistem Informasi di tingkat regional dan nasional yang berorientasi pada inovasi teknologi global.
             </p>
             <div className="flex space-x-4">
               {[Facebook, Instagram, Twitter, Globe].map((Icon, i) => (
@@ -93,10 +93,10 @@ const Footer = () => {
           <div className="flex items-center space-x-2 text-white/30 text-[10px] font-bold tracking-[0.2em] uppercase">
             <span>© {new Date().getFullYear()}</span>
             <span className="h-1 w-1 bg-white/20 rounded-full"></span>
-            <span>Teknik Informatika UNRI</span>
+            <span>Sistem Informasi UNRI</span>
           </div>
           <p className="text-white/40 text-[11px] font-medium max-w-2xl text-center leading-relaxed">
-            Situs web ini dikelola oleh Tim IT Jurusan Teknik Informatika Universitas Riau. Hak cipta dilindungi undang-undang.
+            Situs web ini dikelola oleh Tim IT Jurusan Sistem Informasi Universitas Riau. Hak cipta dilindungi undang-undang.
           </p>
         </div>
       </div>

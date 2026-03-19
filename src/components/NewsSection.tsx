@@ -66,7 +66,7 @@ const NewsSection = () => {
           </div>
           <div className="flex justify-center">
             <div className="bg-white px-8 py-4 rounded-2xl shadow-sm border border-gray-100 font-bold text-gray-400">
-               UNRI
+               U
             </div>
           </div>
         </div>

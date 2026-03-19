@@ -9,7 +9,7 @@ const VideoSection = () => {
           <h2 className="text-sky-600 font-bold uppercase tracking-widest text-sm">Tour Virtual</h2>
           <h3 className="text-4xl md:text-5xl font-black text-gray-900">Kenali Jurusan Kami</h3>
           <p className="text-gray-500 max-w-2xl mx-auto">
-            Saksikan video profil singkat untuk melihat fasilitas, kegiatan mahasiswa, dan lingkungan belajar di Teknik Informatika Universitas Riau.
+            Saksikan video profil singkat untuk melihat fasilitas, kegiatan mahasiswa, dan lingkungan belajar di Sistem Informasi Universitas Riau.
           </p>
         </div>
 

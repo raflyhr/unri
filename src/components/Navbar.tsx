@@ -60,8 +60,8 @@ const Navbar = () => {
                 <GraduationCap className="text-white w-7 h-7" />
               </div>
               <div className="flex flex-col">
-                <span className={`font-black text-2xl tracking-tighter leading-none ${isScrolled ? 'text-gray-900' : 'text-white'}`}>TI UNRI</span>
-                <span className={`text-[10px] font-bold uppercase tracking-[0.2em] mt-1 ${isScrolled ? 'text-sky-600' : 'text-white/70'}`}>Teknik Informatika</span>
+                <span className={`font-black text-2xl tracking-tighter leading-none ${isScrolled ? 'text-gray-900' : 'text-white'}`}>UNIVERSITAS RIAU</span>
+                <span className={`text-[10px] font-bold uppercase tracking-[0.2em] mt-1 ${isScrolled ? 'text-sky-600' : 'text-white/70'}`}>SISTEM INFORMASI</span>
               </div>
             </div>
 
@@ -83,11 +83,6 @@ const Navbar = () => {
                 <Search size={20} />
               </button>
 
-              <div className="ml-4 pl-4 border-l border-gray-200 hidden lg:block">
-                 <button className="bg-sky-600 text-white px-6 py-2.5 rounded-xl font-bold text-sm hover:bg-sky-700 transition-all shadow-lg shadow-sky-600/20 transform hover:-translate-y-0.5 active:scale-95">
-                   Login SSO
-                 </button>
-              </div>
             </div>
 
             {/* Mobile menu button */}
@@ -119,11 +114,7 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <div className="pt-4 mt-4 border-t border-gray-100">
-                 <button className="w-full bg-sky-600 text-white py-4 rounded-xl font-bold shadow-lg shadow-sky-600/20">
-                   Login SSO
-                 </button>
-              </div>
+          
             </div>
           </div>
         )}

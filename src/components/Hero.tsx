@@ -44,18 +44,7 @@ const Hero = () => {
               Menyiapkan talenta digital unggul melalui ekosistem akademik modern yang berfokus pada inovasi, riset, dan kolaborasi industri global.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-5 pt-4">
-              <button className="bg-sky-600 text-white px-10 py-5 rounded-2xl font-black text-lg flex items-center justify-center space-x-3 hover:bg-sky-500 transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-sky-600/40 group">
-                <span>Daftar Sekarang</span>
-                <ChevronRight size={24} className="group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="bg-white/5 backdrop-blur-md text-white border-2 border-white/10 px-10 py-5 rounded-2xl font-black text-lg flex items-center justify-center space-x-3 hover:bg-white/10 transition-all transform hover:-translate-y-1 group">
-                <div className="bg-sky-600 group-hover:bg-sky-500 p-2 rounded-xl transition-colors">
-                  <Play size={18} fill="white" />
-                </div>
-                <span>Tonton Profil</span>
-              </button>
-            </div>
+         
 
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-8 pt-10 border-t border-white/10">
@@ -64,7 +53,7 @@ const Hero = () => {
                   <Star size={20} fill="currentColor" />
                   <span className="text-2xl font-black text-white">UNGGUL</span>
                 </div>
-                <div className="text-white/40 text-[10px] font-bold uppercase tracking-widest">Akreditasi BAN-PT</div>
+                <div className="text-white/40 text-[10px] font-bold uppercase tracking-widest ">Akreditasi BAN-PT</div>
               </div>
               <div className="space-y-1">
                 <div className="flex items-center space-x-2 text-sky-400">
@@ -98,7 +87,7 @@ const Hero = () => {
                        News Highlight
                      </div>
                      <h3 className="text-3xl font-black text-white leading-tight mb-2">Pemenang Lomba Essay Nasional 2024</h3>
-                     <p className="text-white/60 font-medium">Tim Mahasiswa TI UNRI meraih Juara 1 di ajang LETIN 5.</p>
+                     <p className="text-white/60 font-medium">Tim Mahasiswa SI UNRI meraih Juara 1 di ajang LETIN 5.</p>
                   </div>
                 </div>
              </div>
