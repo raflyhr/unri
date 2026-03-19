@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0ea5e9; /* sky-500 */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  scroll-behavior: smooth;
+}
+
+.gradient-overlay {
+  background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+}
